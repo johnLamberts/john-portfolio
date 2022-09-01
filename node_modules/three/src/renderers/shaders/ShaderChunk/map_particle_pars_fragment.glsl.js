@@ -1,19 +1,3 @@
-export default /* glsl */`
-#if defined( USE_MAP ) || defined( USE_ALPHAMAP )
-
-	uniform mat3 uvTransform;
-
-#endif
-
-#ifdef USE_MAP
-
-	uniform sampler2D map;
-
-#endif
-
-#ifdef USE_ALPHAMAP
-
-	uniform sampler2D alphaMap;
-
-#endif
-`;
+version https://git-lfs.github.com/spec/v1
+oid sha256:4d5bf0f6da1f47379e23bfafe590a8761510b645921e316eca6c71d5f4bbbdb0
+size 224

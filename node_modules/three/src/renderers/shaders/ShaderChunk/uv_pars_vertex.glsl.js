@@ -1,17 +1,3 @@
-export default /* glsl */`
-#ifdef USE_UV
-
-	#ifdef UVS_VERTEX_ONLY
-
-		vec2 vUv;
-
-	#else
-
-		varying vec2 vUv;
-
-	#endif
-
-	uniform mat3 uvTransform;
-
-#endif
-`;
+version https://git-lfs.github.com/spec/v1
+oid sha256:41ae23e3005fd4cc2c9cb18744113968c0e76ae4fca0dba4c1ce4eb2593f882b
+size 156

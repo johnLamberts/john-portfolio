@@ -1,29 +1,3 @@
-{
-  "name": "john-portfolio",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "dev": "npx parcel src/index.html --open",
-    "johnDev": "npx parcel src/index.html",
-    "build": "npx parcel build src/index.html"
-  },
-  "author": "John Lambert",
-  "license": "ISC",
-  "alias": {
-    "process": false
-  },
-  "devDependencies": {
-    "@parcel/resolver-default": "^2.7.0",
-    "@parcel/transformer-webmanifest": "^2.7.0",
-    "parcel": "^2.7.0",
-    "parcel-bundler": "^1.12.5"
-  },
-  "dependencies": {
-    "@parcel/transformer-sass": "^2.7.0",
-    "gsap": "^3.11.0",
-    "imagesloaded": "^5.0.0",
-    "smooth-scrollbar": "^8.7.5",
-    "three": "^0.144.0"
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:fab5714bcbffecaeb75aa7c040734db0c83fdf360d4e7761abfbea9e24363425
+size 731

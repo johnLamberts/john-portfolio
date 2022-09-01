@@ -1,13 +1,3 @@
-export default /* glsl */`
-vec4 mvPosition = vec4( transformed, 1.0 );
-
-#ifdef USE_INSTANCING
-
-	mvPosition = instanceMatrix * mvPosition;
-
-#endif
-
-mvPosition = modelViewMatrix * mvPosition;
-
-gl_Position = projectionMatrix * mvPosition;
-`;
+version https://git-lfs.github.com/spec/v1
+oid sha256:c9b5a29c5cd752cc2c183437a211669f6744b3d3b82762c3e6c1ee21c8ce4470
+size 239
