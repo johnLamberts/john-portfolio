@@ -1,0 +1,18 @@
+$primary-color: #6cff8d;
+$primary-dark-color: #6cff8c7a;
+
+$animated-red-color: #f44336;
+$animated-blue-color: #2196f3;
+
+$background-yellow: #ffea5c;
+
+/** CLASSES **/
+.section {
+  padding: 1rem;
+  overflow: hidden;
+  min-height: 100vh;
+  padding-top: 5rem;
+  @media (max-width: 640px) {
+    padding: 5rem;
+  }
+}
