@@ -1,10 +1,3 @@
-export default /* glsl */`
-#if defined( USE_LIGHTMAP ) || defined( USE_AOMAP )
-
-	attribute vec2 uv2;
-	varying vec2 vUv2;
-
-	uniform mat3 uv2Transform;
-
-#endif
-`;
+version https://git-lfs.github.com/spec/v1
+oid sha256:2854d8237b9fe6ee5b8209f776edb8717946448b66c4e9a35f146307feef7b5d
+size 161
